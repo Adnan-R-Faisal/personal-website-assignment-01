@@ -11,17 +11,31 @@ body{
 }
 h1{
     font-size:3.5em;
-    margin:0 0;
+    margin:0;
     font-family: 'Kanit', sans-serif;
     font-weight:600;
 }
 h2{
-    font-size:1.8em;
-    margin:0 0;
+    font-size:2.3em;
+    margin:0;
+}
+h3{
+    font-size:1.67em;
+    margin:0;
 }
 p{
     line-height:1.6;
     font-weight:300;
+}
+
+.mt-header{
+    margin-top:1.13em;
+}
+.mb-header{
+    margin-bottom:1.13em;
+}
+.text-center{
+    text-align:center;
 }
 #bordered-heading-01{
     margin-bottom:0.6em;
@@ -31,6 +45,22 @@ p{
 }
 .text-purple{
     color:#9254b9;
+}
+.text-white{
+    color:#fff;
+}
+
+.bg-white{
+background-color:#fff;
+}
+.bg-orange{
+    background-color:#f8c86e;
+}
+.bg-blue{
+    background-color:#aaaafd;
+}
+.bg-green{
+    background-color:#86af6f;
 }
 a.btn{
     text-decoration:none;
@@ -92,5 +122,22 @@ a.btn{
     width:50%;
     margin:0 auto;
     font-size: 1.3em;
+    margin-bottom:5%;
+}
+.card{
+    width:33.33%;
+    margin: 4em 2em ;
+    box-shadow:0 1px 3px 0 #9c63be65;
+    border-radius:1em;
+    padding:2em;
+    display:flex;
+    flex-direction: column;
+}
+.card-image{
+    width:7em;
+    height:7em;
+
+    border-radius:1em;
     
+
 }
